@@ -1,0 +1,108 @@
+*
+{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body 
+{
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      flex-direction: column;
+}
+
+.header
+{
+      width: 100%;
+      height: 60px;
+      background-color: rgba(0, 0, 0, 0.800);
+      border-bottom: 2px solid grey;
+      padding: 5px 20px;
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      color: white;
+}
+
+.logo
+{
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: 3px;
+}
+
+.main
+{
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      flex-direction: column;
+      padding: 20px;
+}
+
+.text
+{
+      width: 100%;
+      height: auto;
+      font-size: 18px;
+      letter-spacing: 1.3px;
+      line-height: 30px;
+      text-justify: inter-word;
+      word-break: break-word;
+      hyphens: auto;
+      padding: 15px;
+}
+
+a
+{
+      text-decoration:none;
+      color: rgb(15, 136, 15);
+}
+
+.title-c
+{
+      width: 100%;
+      height: auto;
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+      text-align: center;
+}
+
+.title 
+{
+      width: 100%;
+      height: auto;
+      font-size: 22px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      margin-bottom: 10px;
+      margin-top: 10px;
+}
+
+.BackHome
+{
+      width: 100%;
+      height: 50px;
+      background-color: rgba(0, 0, 0, 0.800);
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      border-radius: 24px;
+}
+
+.BackHome a
+{
+      color: white;
+}
